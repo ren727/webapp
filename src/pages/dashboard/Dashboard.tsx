@@ -51,7 +51,7 @@ const Dashboard = () => {
     //      note: "bill"}
     //   ];
      
-   return <div>
+   return <div className ="container"> 
             {isLoading && <p>Now Loading...</p>}
             {error && <p>{error}</p>}
              <ExpenseList expenses={expenses}/>
