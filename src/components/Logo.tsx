@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/leaf.png'
 
 const Logo = () => {
   return (
-     <a href='www.google.com'   
+     <Link to="/"   
       className="navbar-brand">
         <img src={logo}  width={48} height={48} className='rounded-circle' style={{ objectFit: 'cover' }}/>
-     </a>
+     </Link>
   )
 }
 
